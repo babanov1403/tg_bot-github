@@ -30,6 +30,8 @@ DB_NEW = "planner_table"
 #tz = datetime.timezone(datetime.timedelta(hours = 3))
 bot = TeleBot(TOKEN)
 #hello from my pc
+#hello from my pc one more time
+
 
 def lambda_handler(event, context):
     payload = json.loads(event['body'])
